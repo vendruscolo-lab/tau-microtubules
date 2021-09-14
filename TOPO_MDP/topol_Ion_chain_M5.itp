@@ -1,0 +1,34 @@
+;
+;	File 'topol_Ion_chain_M5.itp' was generated
+;	By user: fb516 (12413)
+;	On host: eslogin001
+;	At date: Thu Jun  4 18:20:19 2020
+
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2016.3 (-:
+;	
+;	Executable:   /work/y07/y07/cse/gmx/gromacs-2016.3/bin/gmx
+;	Data prefix:  /work/y07/y07/cse/gmx/gromacs-2016.3
+;	Working dir:  /fs2/e658/e658/fb516/MT_UNTHREAD
+;	Command line:
+;	  gmx pdb2gmx -f columnR1_4_help_tau_shiftedtau.pdb -ter
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion_chain_M5        3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 453 MG  rtp MG   q +2.0
+     1         MG    453     MG     MG      1          2     24.305   ; qtot 2
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion_chain_M5.itp"
+#endif
+
