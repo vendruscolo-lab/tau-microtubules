@@ -5,6 +5,6 @@ This repository contains the necessary topology, structure, gromacs parameter an
 
 - TOPO_MDP folder containts GROMACS topology and parameter files.
 - INITIAL_STRUCTURES folder contains the initial structures of each of the 32 replicas used in the EMMI simulation.
-- PRODUCTION containst the plumed file and the associated companion files such as an index file, data GMM file (MT_TAU.dat) and pdb files
+- PRODUCTION containst the plumed file (for version 2.7 and master respectively) and the associated companion files such as an index file, data GMM file (MT_TAU.dat) and pdb files
 
 The entire trajectories can be found in Zenobo https://zenodo.org/record/5507453#.YUINRi0RrJE
