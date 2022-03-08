@@ -52,7 +52,7 @@ ATOMS=Protein-noASPGLU-noH GMM_FILE=MT_TAU.dat
 # SIGMA_MIN can go down to 0.02, must be > NL_CUTOFF,
 # if crashes, raise back to 0.05,
 # the larger the number the softer the contribution of the EM data
-SIGMA_MIN=0.03 RESOLUTION=0.1 NOISETYPE=MARGINAL
+SIGMA_MIN=0.03 RESOLUTION=0.41 NOISETYPE=MARGINAL
 #WRITE_OV=OV_FILE.dat 
 #WRITE_OV_STRIDE=500
 ...
